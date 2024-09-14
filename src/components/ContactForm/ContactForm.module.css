@@ -1,0 +1,27 @@
+.mainForm {
+  width: 200px;
+  border: 1px solid black;
+  border-radius: 2%;
+  box-sizing: border-box;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.field {
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 2%;
+}
+
+.error{
+  color: #e74c3c;
+  font-size: 0.8rem;
+}
+
+
+.button {
+    display: block;
+    margin: auto;
+}

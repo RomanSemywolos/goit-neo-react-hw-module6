@@ -1,0 +1,30 @@
+.contactBlock {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  padding: 10px;
+}
+
+.contactRow{
+  width: 250px;
+  display: flex;
+  flex-direction: row;
+  border: 2px solid black;
+  box-sizing: border-box;
+  border-radius: 2%;
+  gap: 10px;
+}
+
+.contactContent {
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+.text {
+  display: inline-block;
+}
+
+.deleteButton{
+  margin: auto;
+  margin-right: 10px;
+}

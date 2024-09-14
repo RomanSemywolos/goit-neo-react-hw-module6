@@ -1,0 +1,11 @@
+.mainInput {
+  width: 200px;
+  border: 1px solid black;
+  border-radius: 2%;
+  box-sizing: border-box;
+}
+
+.wrap{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
